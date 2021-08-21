@@ -57,7 +57,7 @@ export const lpClientFactory = (csdsClient: ICsdsClient, secretClient: ISecretCl
         const baseUrl = `https://${host}`;
         const apiKeyCreds = await getAppKeyCredentials(appKeySecretName);
 
-        const requestOptions = { ...options, baseUrl, method };
+        const requestOptions = { ...options, baseUrl, method, uri: path };
 
         const oauthHeader = getOauthHeader(
             {
@@ -73,7 +73,7 @@ export const lpClientFactory = (csdsClient: ICsdsClient, secretClient: ISecretCl
             ...oauthHeader,
         };
 
-        return httpClient(path, requestOptions);
+        return httpClient(`${baseUrl}${path}`, requestOptions);
     };
 };
 
