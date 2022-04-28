@@ -11,7 +11,7 @@
   "dependencies": {
     "bent": "7.3.12",
     "fs-extra": "^10.0.0",
-    "get-port": "^5.1.1",
+    "get-port": "^6.0.0",
     "jsforce": "1.11.0",
     "luxon": "2.3.2",
     "lodash": "4.17.21",
