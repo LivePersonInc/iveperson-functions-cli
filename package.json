@@ -60,7 +60,7 @@
     "@types/listr": "0.14.4",
     "@types/loglevel": "1.6.3",
     "@types/moment-timezone": "0.5.30",
-    "@types/node": "14.18.36",
+    "@types/node": "14.18.63",
     "@types/node-emoji": "1.8.2",
     "@types/request-promise-native": "1.0.18",
     "@types/semver": "7.3.13",
