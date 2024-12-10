@@ -41,7 +41,7 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "semver": "^7.2.1",
-    "set-interval-async": "^2.0.0",
+    "set-interval-async": "^3.0.0",
     "systeminformation": "^5.3.1",
     "uuid": "8.3.2"
   },
@@ -64,7 +64,7 @@
     "@types/node-emoji": "1.8.2",
     "@types/request-promise-native": "1.0.18",
     "@types/semver": "7.3.13",
-    "@types/set-interval-async": "1.0.0",
+    "@types/set-interval-async": "3.0.1",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
     "babel-jest": "25.5.1",
